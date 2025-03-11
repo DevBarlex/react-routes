@@ -3,8 +3,8 @@ import { studies, experiences } from "./data/resume";
 
 const Resume = () => {
   return (
-    <div>
-      <h1>Currículum</h1>
+    <>
+      <h1>Resumen</h1>
 
       <h2>Experiencia Laboral</h2>
       <ul>
@@ -25,7 +25,7 @@ const Resume = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 

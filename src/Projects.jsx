@@ -1,9 +1,10 @@
 import React from "react";
 import projects from "./data/projects";
 
+
 const Projects = () => {
   return (
-    <div>
+    <>
       <h1>Proyectos</h1>
       <ul>
         {projects.map((project) => (
@@ -17,7 +18,7 @@ const Projects = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 
